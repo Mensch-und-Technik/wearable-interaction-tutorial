@@ -7,7 +7,7 @@
 - **LED Cathode (Short Leg):** Connect to `GND`.
     
 
-#### 2. Leader Final Code (Master)
+#### 2. Leader Final Code (Leader)
 
 ```cpp
 #include <Wire.h>
@@ -66,7 +66,7 @@ void loop() {
 }
 ```
 
-#### 3. Follower Final Code (Slave)
+#### 3. Follower Final Code (Follower)
 
 ```cpp
 #include <Wire.h>
