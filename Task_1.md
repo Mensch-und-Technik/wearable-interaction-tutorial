@@ -25,11 +25,10 @@ void loop() {
   angle = constrain(angle, 0, 180);
 
   Serial.print("Raw: ");
-}
-```
   Serial.print(rawVal);
   Serial.print(" -> Mapped Angle: ");
   Serial.println(angle);
 
   delay(50);
 }
+```
