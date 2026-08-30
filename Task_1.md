@@ -10,7 +10,7 @@ Build a voltage divider on the Leader breadboard:
 Upload this code to verify your sensor range and note your minimum (relaxed) and maximum (bent/pressed) values in the Serial Monitor.
 
 Code C++
-
+```cpp
 const int sensorPin = A0;
 
 void setup() {
@@ -25,6 +25,8 @@ void loop() {
   angle = constrain(angle, 0, 180);
 
   Serial.print("Raw: ");
+}
+```
   Serial.print(rawVal);
   Serial.print(" -> Mapped Angle: ");
   Serial.println(angle);
